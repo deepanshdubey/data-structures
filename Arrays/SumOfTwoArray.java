@@ -1,4 +1,4 @@
-import java.io.IOException;
+import java.io.*;
 import java.util.*;
 public class SumOfTwoArray
 {
@@ -35,11 +35,11 @@ public class SumOfTwoArray
                     arr3[m]=base;
                     carry = 1;
                 }
-                else{
+                else
+                {
                     base = temp;
                     arr3[m-1]=base;
                 }
-                    
             }
         }
         for(i=0;i<m;i++)
